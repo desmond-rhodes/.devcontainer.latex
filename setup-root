@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+apt-get -y install \
+	latexmk \
+	texlive-bibtex-extra \
+	texlive-xetex
